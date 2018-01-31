@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
-    <version>3.2</version>
-    <date>2017-04-12T19:44:35Z</date>
+    <version>3.4</version>
+    <date>2018-01-31T23:21:20Z</date>
     <groups>
         <group>
             <name>Tobit</name>
@@ -17,23 +17,25 @@
                     <name>Tobit</name>
                 </group>
             </groups>
-            <applications/>
+            <applications>
+                <application>
+                    <name>Tobit</name>
+                </application>
+            </applications>
             <items>
                 <item>
                     <name>David Grabbing Server</name>
                     <type>0</type>
                     <snmp_community/>
-                    <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>service.info[DavidGrabbingServer]</key>
-                    <delay>30</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -41,11 +43,8 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
-                    <data_type>0</data_type>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -54,25 +53,32 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
-                    <valuemap/>
+                    <applications>
+                        <application>
+                            <name>Tobit</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Windows service state</name>
+                    </valuemap>
                     <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
                 </item>
                 <item>
                     <name>DavidPostMan</name>
                     <type>0</type>
                     <snmp_community/>
-                    <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>service.info[DavidPostMan]</key>
-                    <delay>30</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <delay>1m</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -80,11 +86,8 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
-                    <data_type>0</data_type>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -93,25 +96,32 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
-                    <valuemap/>
+                    <applications>
+                        <application>
+                            <name>Tobit</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Windows service state</name>
+                    </valuemap>
                     <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
                 </item>
                 <item>
                     <name>DavidTLD001</name>
                     <type>0</type>
                     <snmp_community/>
-                    <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>service.info[DavidTLD001]</key>
-                    <delay>30</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -119,11 +129,8 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
-                    <data_type>0</data_type>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -132,25 +139,32 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
-                    <valuemap/>
+                    <applications>
+                        <application>
+                            <name>Tobit</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Windows service state</name>
+                    </valuemap>
                     <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
                 </item>
                 <item>
                     <name>David TLD002</name>
                     <type>0</type>
                     <snmp_community/>
-                    <multiplier>0</multiplier>
                     <snmp_oid/>
                     <key>service.info[DavidTLD002]</key>
-                    <delay>30</delay>
-                    <history>90</history>
-                    <trends>365</trends>
+                    <delay>30s</delay>
+                    <history>90d</history>
+                    <trends>365d</trends>
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
                     <units/>
-                    <delta>0</delta>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -158,11 +172,8 @@
                     <snmpv3_authpassphrase/>
                     <snmpv3_privprotocol>0</snmpv3_privprotocol>
                     <snmpv3_privpassphrase/>
-                    <formula>1</formula>
-                    <delay_flex/>
                     <params/>
                     <ipmi_sensor/>
-                    <data_type>0</data_type>
                     <authtype>0</authtype>
                     <username/>
                     <password/>
@@ -171,9 +182,18 @@
                     <port/>
                     <description/>
                     <inventory_link>0</inventory_link>
-                    <applications/>
-                    <valuemap/>
+                    <applications>
+                        <application>
+                            <name>Tobit</name>
+                        </application>
+                    </applications>
+                    <valuemap>
+                        <name>Windows service state</name>
+                    </valuemap>
                     <logtimefmt/>
+                    <preprocessing/>
+                    <jmx_endpoint/>
+                    <master_item/>
                 </item>
             </items>
             <discovery_rules/>
@@ -185,31 +205,15 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{Tobit Dienste:service.info[DavidGrabbingServer].last()}=0</expression>
+            <expression>{Tobit Dienste:service.info[DavidGrabbingServer].last()}&gt;5</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>DAVID Grabbing Server RUN</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>0</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Tobit Dienste:service.info[DavidGrabbingServer].last()}=6</expression>
-            <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Tobit Dienste:service.info[DavidGrabbingServer].last()}=0</recovery_expression>
             <name>DAVID Grabbing Server STOPPED</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>4</priority>
+            <priority>5</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -217,15 +221,15 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Tobit Dienste:service.info[DavidPostMan].last()}=0</expression>
+            <expression>{Tobit Dienste:service.info[DavidPostMan].last()}&gt;5</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>DAVID POSTMAN  RUN</name>
+            <name>DAVID PostMan STOPPED</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>0</priority>
+            <priority>5</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -233,47 +237,15 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Tobit Dienste:service.info[DavidPostMan].last()}=6</expression>
-            <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Tobit Dienste:service.info[DavidPostMan].last()}=0</recovery_expression>
-            <name>DAVID PostMan STOP</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Tobit Dienste:service.info[DavidTLD001].last()}=0</expression>
+            <expression>{Tobit Dienste:service.info[DavidTLD001].last()}&gt;5</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>DAVID  TLD001 RUN</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>0</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Tobit Dienste:service.info[DavidTLD001].last()}=6</expression>
-            <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Tobit Dienste:service.info[DavidTLD001].last()}=0</recovery_expression>
             <name>DAVIDTLD001 STOPPED</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>4</priority>
+            <priority>5</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -281,31 +253,15 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{Tobit Dienste:service.info[DavidTLD002].last()}=0</expression>
+            <expression>{Tobit Dienste:service.info[DavidTLD002].last()}&gt;5</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
-            <name>DAVIDTLD002 RUN</name>
+            <name>DAVIDTLD002 STOPPED</name>
             <correlation_mode>0</correlation_mode>
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>0</priority>
-            <description/>
-            <type>0</type>
-            <manual_close>0</manual_close>
-            <dependencies/>
-            <tags/>
-        </trigger>
-        <trigger>
-            <expression>{Tobit Dienste:service.info[DavidTLD002].last()}=6</expression>
-            <recovery_mode>1</recovery_mode>
-            <recovery_expression>{Tobit Dienste:service.info[DavidTLD002].last()}=0</recovery_expression>
-            <name>DAVIDTLD002 STOP</name>
-            <correlation_mode>0</correlation_mode>
-            <correlation_tag/>
-            <url/>
-            <status>0</status>
-            <priority>4</priority>
+            <priority>5</priority>
             <description/>
             <type>0</type>
             <manual_close>0</manual_close>
@@ -313,4 +269,47 @@
             <tags/>
         </trigger>
     </triggers>
+    <value_maps>
+        <value_map>
+            <name>Windows service state</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Running</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Paused</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Start pending</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>Pause pending</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>Continue pending</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>Stop pending</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>Stopped</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>Unknown</newvalue>
+                </mapping>
+                <mapping>
+                    <value>255</value>
+                    <newvalue>No such service</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
 </zabbix_export>
